@@ -1,14 +1,19 @@
-# Cadastro de Notas — For e While
+# 🔁 Cadastro de Notas — For e While
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-2F6F6B)
+![Tema](https://img.shields.io/badge/tema-estrutura%20de%20repeti%C3%A7%C3%A3o-8A5A2B)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Programa em Python que registra a nota de vários alunos, combinando duas estruturas de repetição: **for** (para percorrer a lista de alunos) e **while** (para validar cada nota digitada).
 
-## O que o programa faz
+## 📋 O que o programa faz
 
 - Pede a nota de cada aluno de uma turma.
 - Não aceita notas fora do intervalo de 0 a 10 — se o valor digitado for inválido, o programa pede novamente até receber um valor correto.
 - Ao final, exibe todas as notas registradas e a média da turma.
 
-## Código
+## 💻 Código
 
 ```python
 quantidade_alunos = 5
@@ -27,16 +32,16 @@ print("\nNotas registradas:", notas)
 print("Média da turma:", sum(notas) / len(notas))
 ```
 
-## Por que for e while juntos
+## 🔍 Por que for e while juntos
 
 | Estrutura | Papel no programa |
 |---|---|
-| `for` | Controla o que já se sabe de antemão: são exatamente `quantidade_alunos` alunos, um após o outro. |
-| `while` | Controla o que não se sabe de antemão: quantas vezes será necessário pedir a nota novamente até que um valor válido seja digitado. |
+| 🔢 `for` | Controla o que já se sabe de antemão: são exatamente `quantidade_alunos` alunos, um após o outro. |
+| ⏳ `while` | Controla o que não se sabe de antemão: quantas vezes será necessário pedir a nota novamente até que um valor válido seja digitado. |
 
 O `for` decide **quantas vezes** o processo geral se repete. O `while`, dentro dele, garante **a qualidade de cada repetição individual**.
 
-## Como executar
+## ▶️ Como executar
 
 Pré-requisito: Python 3 instalado.
 
@@ -44,7 +49,7 @@ Pré-requisito: Python 3 instalado.
 python cadastro_notas.py
 ```
 
-## Exemplo de execução
+## 🖥️ Exemplo de execução
 
 ```
 Digite a nota do aluno 1: 8.5
@@ -63,4 +68,4 @@ Média da turma: 8.1
 
 ---
 
-Desenvolvimento de Sistemas I · Agenda 08 — Estrutura de Repetição
+📚 Desenvolvimento de Sistemas I · Agenda 08 — Estrutura de Repetição
