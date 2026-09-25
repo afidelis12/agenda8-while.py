@@ -9,6 +9,7 @@
 Programa em Python que registra a nota de vários alunos, combinando duas estruturas de repetição: **for** (para percorrer a lista de alunos) e **while** (para validar cada nota digitada).
 
 ## 📋 O que o programa faz
+#779B2E
 
 - Pede a nota de cada aluno de uma turma.
 - Não aceita notas fora do intervalo de 0 a 10 — se o valor digitado for inválido, o programa pede novamente até receber um valor correto.
