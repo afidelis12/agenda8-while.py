@@ -4,6 +4,7 @@
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-2F6F6B)
 ![Tema](https://img.shields.io/badge/tema-estrutura%20de%20repeti%C3%A7%C3%A3o-8A5A2B)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Claude](https://img.shields.io/badge/claude-%23D97757.svg?style=for-the-badge&logo=claude&logoColor=white))
 
 Programa em Python que registra a nota de vários alunos, combinando duas estruturas de repetição: **for** (para percorrer a lista de alunos) e **while** (para validar cada nota digitada).
 
